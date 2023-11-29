@@ -1,0 +1,83 @@
+span {
+    background-color: aquamarine;
+}
+
+li {
+    background-color: red;
+}
+
+.listClass {
+    background-color: orange;
+}
+
+#listId {
+    background-color: yellow;
+}
+
+li[value="list"] {
+    background-color: green;
+}
+
+.listClass1, .listClass2 {
+    background-color: skyblue;
+}
+
+ul .listClass3 {
+    background-color: indigo;
+    color: white;
+}
+
+
+.hoverBtn:hover {
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
+
+.activeBtn:active {
+    background-color: darkgray;
+}
+
+
+.focusInput:focus {
+    background-color: skyblue;
+    border-width: 5px;
+}
+
+.visitedLink:visited {
+    color: red;
+}
+
+.firstLetter::first-letter {
+    font-size: 25px ;
+}
+
+.firstLine::first-line {
+    color: blue;
+}
+
+
+.beforeAndAfter::before {
+    content: "This text is added before";
+    color: red;
+}
+
+.beforeAndAfter::after {
+    content: "This text is added after";
+    color: blue;
+}
+
+.selectParts::selection {
+    background-color: crimson;
+}
+
+
+.cascade {
+    color: red;
+}
+.cascade {
+    color: blue;
+}
+
+
+
