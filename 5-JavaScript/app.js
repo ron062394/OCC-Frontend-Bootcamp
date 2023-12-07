@@ -1,27 +1,21 @@
-//String - abc123!@#$
-let name = "John";
-console.log("The type of name:", typeof name);
+//Looping statement
+console.log("i am connected")
 
-//Number - 123456
-let age  = 25;
-console.log("The type of age:", typeof age);
+//For loop
+for (let i = 1; i <= 5; i++) {
+    console.log("Count:", i);
+}
 
-//Boolean - True or false
-let isStudent = false;
-let isTeacher = true;
-console.log("The type of isStudent:", typeof isStudent);
-console.log("The type of isTeacher:", typeof isTeacher);
+// Loops: while loop
+let count = 1;
+while (count <= 5) {
+  console.log('Count:', count);
+  count++;
+}
 
-//Null - Intentional absence of data
-let girlFriend = null;
-console.log("The type of girlfriend:", typeof girlFriend);
-
-let myNumber;
-console.log(myNumber);
-console.log("The value of city:", myNumber);
-console.log("The type of city:", typeof myNumber);
-
-
-
-
-
+// Loops: do-while loop
+let i = 1;
+do {
+  console.log('Do-While Count:', i);
+  i++;
+} while (i <= 5);
